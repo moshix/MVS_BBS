@@ -12,6 +12,15 @@ MVS BBS provides the following functions:
 
 All written in BREXX. And it all runs on 45 year old MVS 3.8j on top of Hercules. 
 
+How does MVS BBS work?
+=======================
+MVS BBS stores all its state data in a VSAM key/valey database. 
+data stored inclludes:
+
+Per user data (last login, permissions, )
+Per forum data (post, forum number, post ids)
+
+
 July 2023, Samedan, Switzerland
 
 
