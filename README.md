@@ -19,8 +19,22 @@ How does MVS BBS work?
 MVS BBS stores all its state data in a VSAM key/valey database. 
 data stored inclludes:
 
-Per user data (last login, permissions, )
-Per forum data (post, forum number, post ids)
+1. User Database: This stores information about registered users, including usernames, passwords, permissions, email addresses, and other user-specific details.
+
+2. Message Boards: These are organized sections where users can post messages and engage in discussions. Each message board typically has a title, description, and a list of threads or topics.
+
+3. Threads: Threads are individual conversations within a message board. They contain a series of messages or posts related to a specific topic. Each thread usually has a title, the username of the original poster, and a timestamp.
+
+4. Posts: Posts are individual messages within a thread. They contain the actual content posted by users, along with the username of the poster and a timestamp.
+
+5. Private Messages: BBS systems often provide a feature for users to send private messages to each other. These messages are typically stored in a separate database and include the sender, recipient, message content, and timestamp.
+
+6. User Profiles: User profiles allow users to provide additional information about themselves, such as a bio, profile picture, and other personal details. These profiles are associated with each user's account.
+
+7. File Libraries: BBS systems often include file libraries where users can upload and download files. These libraries store information about the files, such as the filename, description, uploader, upload date, and download count.
+
+8. Access Control Lists (ACLs): ACLs are used to control user access to various parts of the BBS system. They define permissions for different user roles, such as administrators, moderators, and regular users.
+
 
 
 July 2023, Samedan, Switzerland
